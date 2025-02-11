@@ -9,18 +9,38 @@ citations-hover: false
 
 # Annual Review Article
 
-@annualrevarticle
-
+@glickman2024
 
 # References
 
-@ref1
+@baker2014
 
-- Summary
+-   Summary
 
-- Reliability and relationship to the topic
+    -   The article aims to find a model to create a positive betting strategy against bookkeepers for English football games. They used data from 1992-1995 to create a model and examined the model for the 1995-1996 season. They used a bivariate Poisson model and mainly factored in recent team performances. They would then bet on outcomes if the ratio of the model to the betting lines exceeded a certain level. Their model was more straightforward and was only used to decide the winner of each game. It could not be used to predict the score like some popular betting games.
 
-- Missing pieces
-    - thing 1
+-   Reliability and relationship to the topic
 
-    - thing 2
+    -   The article relates to the main article because they are both looking to model to determine the winner and loser of sports games. They also discuss how a team’s performance tends to be dynamic and how to factor into models. The main article discusses betting industries and what models they use. Mathematics and statistics professor Mark Dixon from Lancaster University wrote the article. The article was written in 1995, so there may be better models and information today.
+
+-   Missing pieces
+
+    -   I need to know more about the Poisson distribution and how these models are created.
+
+    -   I also need to know what the statistical symbols mean for these models. I recognize some but not most of the symbols.
+
+@dixon1997
+
+-   Summary
+
+    -   The article aims to create a model that can determine the greatest tennis player of all time. The authors used data from each grand slam tournament since 1968 for a paired comparisons model. Their model assumed strengths vary deterministically rather than stochastically. It was also found that modeling strength parameters should be used over spline interpolation. After looking at the results, it was determined that Roger Federer was the greatest player of all time.
+
+-   Reliability and relationship to the topic
+
+    -   Both articles discuss how to rank players or teams and try to figure this out through dynamic paired comparison models. They both discuss the Bradley-Terry and the Thurstone--Mosteller models to be the basis for sports analytics and predictions. This article was published in 2014, which is dated. Many consider Novak Djokovic the greatest tennis player ever, as he has won many grand slams since the publication. The author is a Business professor at Salford and has written over 130 articles and has been cited thousands of times.
+
+-   Missing pieces
+
+    -   I need to know more about BRI and spine interpolation, as that was a key discovery in the experiment's findings.
+
+    -   Additionally, I would need to know about paired and gamma comparisons. I also need to learn more about the Bradley-Terry model.
