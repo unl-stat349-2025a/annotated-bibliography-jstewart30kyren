@@ -34,6 +34,6 @@ KGS systems player rating systems can change if opponent ratings decrease
 - Identifying unintended behavior in rating systems could help solve issues to create a more accurate rating system
 
 The transition and flow of the article could improve. The author doesn’t connect the sections or introduce the next section often. 
-However, it mainly explains different models, so it may not be as necessary. 
+However, the article mainly explains different models, so it may not be as necessary. 
 It would also be interesting to see how these models do in other sports besides the NBA. Analyzing the MLB or college basketball, which have many more games, could create a better model fit.
 
