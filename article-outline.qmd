@@ -1,1 +1,36 @@
-typing
+## Introduction  
+- Introduces the field of sports analytics as a developing area of data science.  
+- A subdomain is the development of methods for estimating team/player abilities and constructing predictive models for game outcomes
+- Predictive modeling of binary outcomes can determine the winner of games
+- The focus of the article is on the binary models and rating systems
+-Application of these models is on NBA game outcomes
+
+## Section 2: [MODELS FOR HEAD-TO-HEAD COMPETITION]  
+Linear paired comparison model is the foundation of probability modeling
+The Bradley-Terry and Thurstone-Mosteller models’ choices are cumulative distributions for logistic, and normal distributions are commonly used.
+These Models are used to calculate the strength of each NBA team 
+Results between the two models are similar, with the BT model being a slightly better fit
+
+## Section 3 [Time Varying Paired Comparison Models]
+An essential extension to the linear paired comparison model is that teams and strength parameters change over time.
+Nonstochastic Extensions: Strength can modeled as a smooth function of time.
+Stochastic Extensions: Strength evolving through a state-space model that recognizes that strength parameters may have random innovations over time
+## Section 4: [Rating Systems]  
+- Useful for large competitor organizations  
+- Focuses heavily on local updates in strength parameters
+- Elo Rating is a recursive system based on the BT Model
+- Glicko is a recursive system but accounts for the uncertainty in strength estimates using normal posterior distributions
+-Glicko is more predictive of game outcomes than Elo for NBA outcomes
+
+## Section 5: [Modern Rating Systems]
+True Skill Incorporates modern methods to factor in players who quit matches early
+URS game results are time-weighted, with later games counting more than earlier ones
+KGS systems player rating systems can change if opponent ratings decrease
+
+## Discussion
+- As technology evolves, more models will come out
+- One difficulty of creating accurate models is the underestimating of the uncertainty of players who only compete locally, such as in chess
+- Identifying unintended behavior in rating systems could help solve issues to create a more accurate rating system
+
+The transition and flow of the article could improve. The author doesn’t connect the sections or introduce the next section often. However, it mainly explains different models, so it may not be as necessary. It would also be interesting to see how these models do in other sports besides the NBA. Analyzing the MLB or college basketball, which have many more games, could create a better model fit.
+
