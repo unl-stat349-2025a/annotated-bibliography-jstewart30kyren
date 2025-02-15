@@ -15,6 +15,7 @@ Results between the two models are similar, with the BT model being a slightly b
 An essential extension to the linear paired comparison model is that teams and strength parameters change over time.
 Nonstochastic Extensions: Strength can modeled as a smooth function of time.
 Stochastic Extensions: Strength evolving through a state-space model that recognizes that strength parameters may have random innovations over time
+
 ## Section 4: [Rating Systems]  
 - Useful for large competitor organizations  
 - Focuses heavily on local updates in strength parameters
@@ -32,5 +33,7 @@ KGS systems player rating systems can change if opponent ratings decrease
 - One difficulty of creating accurate models is the underestimating of the uncertainty of players who only compete locally, such as in chess
 - Identifying unintended behavior in rating systems could help solve issues to create a more accurate rating system
 
-The transition and flow of the article could improve. The author doesn’t connect the sections or introduce the next section often. However, it mainly explains different models, so it may not be as necessary. It would also be interesting to see how these models do in other sports besides the NBA. Analyzing the MLB or college basketball, which have many more games, could create a better model fit.
+The transition and flow of the article could improve. The author doesn’t connect the sections or introduce the next section often. 
+However, it mainly explains different models, so it may not be as necessary. 
+It would also be interesting to see how these models do in other sports besides the NBA. Analyzing the MLB or college basketball, which have many more games, could create a better model fit.
 
