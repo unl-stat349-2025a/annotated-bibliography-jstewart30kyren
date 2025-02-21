@@ -1,1 +1,21 @@
+---
+bibliography: references.bib
+---
 
+**Models and Rating Systems for Head-to-Head Competition by Mark Glickman and Albyn Jones**
+
+Glickman and Jones's article “Models and Rating Systems for Head-to-Head Competition” explores different statistical binary response models for sports analytics to estimate head-to-head game outcomes and team and player strength. The authors discuss probability models for game outcomes, including the Bradley–Terry and Thurstone–Mosteller models. They also examine time-varying models that can be simplified into rating systems, such as the Elo and Glicko rating systems. These rating and probability models are analyzed and applied to a real-world scenario where they predict NBA regular season game results.
+
+The authors argue that sports analytics is becoming more of a scientific inquiry of sports and data science instead of a mere niche. This shift is mainly due to the advancement of statistical models, machine learning techniques, and data-driven insights to optimize athletic performance and refine overall game strategies. Sports analytics has created a platform for researchers and allowed sports organizations to investigate the complexities of sports systematically. The increasing role of sports analytics has been backed up in other scholarly articles, such as Watanabe (2021) and Szymanski (2020). These articles discuss how big data is increasing the use of analytics and advancing decision-making in the sports world.
+
+In sports, the most fundamental question for organizations and teams is who will win or lose. The article argues that unlike point score or ranking models, the binary outcome model, which simply predicts a winner and loser, is more efficient and straightforward. However, the author does not go in-depth about how point score models are more complex, making the argument weaker. In addition to discussing how binary outcome models are better than scoring models, the article goes in depth comparing the Glicko and Elo rating systems.
+
+When first transitioning from full likelihood models to Elo, the article mentions that Elo has some undesirable features. They claim the model loses accuracy and faithfulness when moving to a system with a large number of competitors. They claim that using a higher variance, the Glicko handles unrated and infrequent players better compared to the Elo system. The authors back up the claim with data and percentages that Glicko produces a more accurate model for NBA outcomes than ELO. The argument is compelling, but the author may be biased towards his model.
+
+In conclusion, the article discusses how sports analytics is on the rise, and that the most crucial question is who will win and lose. The author does advocate strongly for the Glicko and Glicko 2 models compared to the Elo rating model. For a primarily informative article, the persuasive and opinionated stance in favor of the Glickman Model compared to the Elo Rating model does illustrate some bias. It would be interesting to see the models used for leagues like the MLB, CBB, or online chess to better improve the authors’ argument.
+
+References
+
+@watanabe2021
+
+@sportan2024
